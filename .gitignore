@@ -79,6 +79,7 @@ Temporary Items
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
+# node_modules/
 
 # CMake
 cmake-build-*/
