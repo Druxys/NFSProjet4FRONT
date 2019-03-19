@@ -67,8 +67,7 @@
 
                 </div>
                 <div class="modal-body">
-                    <div calss="row">
-                        <div class="col-sm-6">
+                    <div calss="center">
                         <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R"
                              name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
                         <h3 class="media-heading">Jean Michel
@@ -77,45 +76,6 @@
                         <span><strong>Qalification: </strong></span>
                         <span class="label label-warning">CAP Petite Enfance</span>
                         <span class="label label-info">BAFA</span>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="rating-block">
-                                <h4>Note general</h4>
-                                <h2 class="bold padding-bottom-7">4.3
-                                    <small>/ 5</small>
-                                </h2>
-                                <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                                </button>
-                                <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                                </button>
-                                <button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                                </button>
-                                <button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                                </button>
-                                <button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
-                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="clearfix"></div>
-                    <hr>
-                    <div calss="center">
-                        <div class="rating-block">
-                            <h5><strong>Contact Info</strong></h5>
-                            <p><strong>Adress:</strong> 514 S. Magnolia St.
-                                Orlando, FL 32806
-                            </p>
-                            <p><strong>Email:</strong> email@example.com</p>
-                            <p><strong>Tel.:</strong> (888) 888 8888</p>
-                            <p><strong>Horaire:</strong> 9h00 - 19h00 </p>
-                        </div>
                     </div>
                     <hr>
                     <div calss="center">
@@ -124,7 +84,6 @@
                             a, vulputate vel tellus.</p>
                         <br>
                     </div>
-                    <hr>
                 </div>
                 <div class="modal-footer">
                     <div>
@@ -137,7 +96,48 @@
         </div>
     </div>
 
+    <!-- Modal contact -->
 
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title" id="contactModalLabel">More About Joe</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" id="basic-addon2">Adresse</label>
+                        <input type="text" class="form-control" placeholder="Adresse" aria-label="Recipient's username"
+                               aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" id="basic-addon2">Email</label>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username"
+                               aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" id="basic-addon2">Tel</label>
+                        <input type="text" class="form-control" placeholder="TEL" aria-label="Recipient's username"
+                               aria-describedby="basic-addon2">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" id="basic-addon2">Plage horaire</label>
+                        <input type="text" class="form-control" placeholder="Horaire" aria-label="Recipient's username"
+                               aria-describedby="basic-addon2">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">
+                        <span class=" glyphicon glyphicon-remove " aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="flex-row">
@@ -164,7 +164,22 @@
                 </button>
             </div>
         </div>
-
+        <div class="col-sm-3">
+            <div class="rating-block">
+                <h5><strong>Contact Info</strong></h5>
+                <p><strong>Adress:</strong> 514 S. Magnolia St.
+                    Orlando, FL 32806
+                </p>
+                <p><strong>Email:</strong> email@example.com</p>
+                <p><strong>Tel.:</strong> (888) 888 8888</p>
+                <p><strong>Horaire:</strong> 9h00 - 19h00 </p>
+                <a href="#contactModalLabel" data-toggle="modal" data-target="#contactModal">
+                    <button type="button" class="btn btn-default btn-grey ">
+                        <i class="glyphicon glyphicon-cog" aria-hidden="true"></i> Modifier les infos
+                    </button>
+                </a>
+            </div>
+        </div>
 
 
         <div class="col-sm-7">
