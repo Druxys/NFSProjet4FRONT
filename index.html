@@ -2,54 +2,76 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="">
+
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <title>NFSProjet4</title>
 
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+<section class="menu header" once="menu" id="menu1-1">
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-2" href="#">LOGO</a></span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item">
+                <a class="nav-link link text-white display-7" href="#">
+                    <span class="mbri-home mbr-iconfont mbr-iconfont-btn">Inscription</span></a>
+            </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+                    <a class="nav-link link text-white display-7" href="#">
+                        <span class="mbri-search mbr-iconfont mbr-iconfont-btn">Connexion</span><br></a>
+                </li></ul>
+
         </div>
     </nav>
-    <section id="search" class="col-xl-12">
+</section>
 
-        <div class="col-lg-12 offset-4 pt-xl-5 position-relative">
-        <form class="form-inline align-self-center">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+<section class="header1 cid-rl65Dy8htE mbr-parallax-background" id="header1-0">
+    <div class="mbr-overlay" >
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style display-1">
+                    Projet 4
+                </h1>
+                <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-2">
+                    lorem hipster
+                </h3>
+                <p class="mbr-text align-center pb-3 mbr-fonts-style display-5">
+                </p>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Quand?" aria-label="Search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Ou?" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+                </form>
+
+            </div>
         </div>
-
-    </section>
-</header>
-
+    </div>
+</section>
 
 <!-- Section Infos Pro -->
-<div class="container-fluid bg-light">
+<section class="container-fluid bg-light">
     <div class="row">
         <div class="col-md-7 order-md-1">
             <h2 class="pt-5">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -59,7 +81,7 @@
             <img class="img-fluid" width="750" height="750" src="assets/img/petite-enfance.jpg" alt="Enfants autour d'une table avec une dame">
         </div>
     </div>
-</div>
+</section>
 
 <!-- Section Infos Parents -->
 <section class="container-fluid">
@@ -102,55 +124,12 @@
 </section>
 
 <!-- Avis Utilisateurs -->
-<section id="avis">
-    <!-- Boutons d'affichage -->
-    <div class="btn-group" id="buttonAvis" role="group" aria-label="Basic example">
-        <button onclick="showCarouselOne()" type="button" class="btn btn-secondary"> Avis de particuliers </button>
-        <button onclick="showCarouselTwo()" type="button" class="btn btn-secondary"> Avis de professionnels </button>
-    </div>
 
-    <!-- Caroussel 1 -->
-    <div id="carouselOne">
-        <img src="assets/img/fleurBleue.jpg">
-    </div>
-
-    <!--Caroussel 2-->
-    <div id="carouselTwo">
-        <img src="assets/img/fleurRose.jpg">
-    </div>
-</section>
 
 <footer>
     <div class="bg-dark text-center"><span class="text-white">Copyright NFSProjet4FRONT</span></div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<script>
-    function showCarouselOne() {
-        var x = document.getElementById('carouselTwo');
-        var y = document.getElementById('carouselOne');
-        if (x.style.display === "none"){
-            x.style.display="block";
-        } else {
-            x.style.display="none";
-        }
-    }
-
-    function showCarouselTwo(){
-        var x = document.getElementById('carouselOne');
-        var y = document.getElementById('carouselTwo');
-        if (x.style.display === "none"){
-            x.style.display="block";
-        } else {
-            x.style.display="none";
-        }
-    }
-</script>
-
 </body>
 </html>
-
 
