@@ -40,23 +40,23 @@
 </section>
 
 <!-- Section Pourquoi nous choisir -->
-<section class="container-fluid mt-4 pt-4 pb-4 border">
-    <div class="row justify-content-around text-center ">
-        <div class="rounded-lg col-3 grow border">
+<section class="container-fluid mt-4 pt-4 pb-4" id="whyUs">
+    <div class="row text-center">
+        <div class="col-md-4">
             <img src="assets/img/iconfinder_Protection_icon_2541672.png" alt="RHINOSHIELD" class="pt-2 pb-2">
             <div class="container">
                 <h3>SECURITE</h3>
                 <p>Coucou</p>
             </div>
         </div>
-        <div class="rounded-lg col-3 grow border">
+        <div class="col-md-4">
             <img src="assets/img/iconfinder_girl_avatar_child_kid_4043250.png" alt="Petite fille" class="pt-2 pb-2">
             <div class="container">
                 <h3>LES GOSSES DE SES MORTS</h3>
                 <p>Coucou</p>
             </div>
         </div>
-        <div class="rounded-lg col-3 grow border">
+        <div class="col-md-4">
             <img src="assets/img/iconfinder_Application-Map_379552.png" alt="map" class="pt-2 pb-2">
             <div class="container">
                 <h3>PARTOUT DANS LE MONDE</h3>
@@ -67,25 +67,25 @@
 </section>
 
 <!-- Avis Utilisateurs -->
-<section class="container-fluid" id="avis">
+<section class="container-fluid mt-4 pt-4 pb-4" id="avis">
 
     <!-- Boutons d'affichage -->
-    <div class="align-content-center" id="buttonAvis" role="group" aria-label="Basic example">
-        <button onclick="showCarouselOne()" type="button" class="btn btn-secondary"> Avis de particuliers </button>
-        <button onclick="showCarouselTwo()" type="button" class="btn btn-secondary"> Avis de professionnels </button>
+    <div class="text-center" id="buttonAvis" role="group" aria-label="Basic example">
+        <button onclick="showCarouselOne()" type="button" class="btn btn-primary">Avis de particuliers</button>
+        <button onclick="showCarouselTwo()" type="button" class="btn btn-primary">Avis de professionnels</button>
     </div>
 
     <!-- Carousel 1 -->
-    <div id="carouselOne">
+    <div class="container-fluid" id="carouselOne">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner text-center">
                 <div class="carousel-item active">
                     <div class="card">
                         <div class="card-header">
                             <img style="" src="assets/img/fleurRose.jpg" class="rounded-circle card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">John Doe</h5>
+                            <h4 class="card-title">John Doe</h4>
                             <p class="card-text"> "J'adore ce site, je recommande fortement."</p>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                             <img src="assets/img/fleurBleue.jpg" class="rounded-circle card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Paul Turpin</h5>
+                            <h4 class="card-title">Paul Turpin</h4>
                             <p class="card-text"> "Je suis pressé d'avoir des enfants simplement pour les faire garder sur ce site !"</p>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             <img src="assets/img/fleurJaune.jpg" class="rounded-circle card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Nicolas Dufresne</h5>
+                            <h4 class="card-title">Nicolas Dufresne</h4>
                             <p class="card-text"> "Franchement, c'est quali !"</p>
                         </div>
                     </div>
@@ -125,16 +125,16 @@
     </div>
 
     <!--Carousel 2-->
-    <div style="display:none" id="carouselTwo">
+    <div class="container-fluid" style="display:none" id="carouselTwo">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner text-center">
                 <div class="carousel-item active">
                     <div class="card">
                         <div class="card-header">
                             <img src="assets/img/rat.jpg" class="rounded-circle card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">John Doe</h5>
+                            <h4 class="card-title">John Doe</h4>
                             <p class="card-text"> "J'adore ce site, je recommande fortement."</p>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                             <img src="assets/img/panda.jpg" class="rounded-circle card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Paul Turpin</h5>
+                            <h4 class="card-title">Paul Turpin</h4>
                             <p class="card-text"> "Je suis pressé d'avoir des enfants simplement pour les faire garder sur ce site !"</p>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                             <img src="assets/img/coccinelle.png" class="rounded-circle card-img-top" alt="...">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Nicolas Dufresne</h5>
+                            <h4 class="card-title">Nicolas Dufresne</h4>
                             <p class="card-text"> "Franchement, c'est quali !"</p>
                         </div>
                     </div>
