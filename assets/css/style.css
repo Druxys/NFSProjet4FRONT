@@ -1,1 +1,30 @@
 @import "reset.css";
+
+.btn-group {
+    margin: 10em 0 2em 0
+}
+
+#carouselOne, #carouselTwo {
+    border-radius:5px;
+    border:2px silver solid;
+    width:40em;
+    height:20em;
+    background-color: lightgrey;
+    margin-top:30px;
+}
+
+.card {
+    margin:.5em 10em;
+    height:18.7em;
+    width: 16em;
+}
+.card-title{
+    font-weight: bold;
+}
+
+.card-img-top{
+    border:3px silver solid;
+    margin:0 auto;
+    width:10em;
+    height:10em;
+}
