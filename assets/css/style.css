@@ -126,3 +126,8 @@ a[href*="intent"] {
 .rating2 a {
     float:none
 }
+
+.rating-block span
+{
+   float: right;
+}
